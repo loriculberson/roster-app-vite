@@ -15,12 +15,18 @@ const playerData = [
 ]
 
 function PlayerList(){
-    const players = playerData.map(player => <Player key={player.id} player={player} />)
+    const players = playerData.map( player => {
+        return (
+            <Player 
+                key={player.id}
+                player={player}
+            />
+        )
+
+    })
 
     return (
-        <>
-          {players}
-        </>
+        <>{players}</>
     )
 
 }
