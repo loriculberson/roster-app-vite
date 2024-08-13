@@ -7,11 +7,11 @@ const yordanHobbies = []
 const jeremyHobbies = []
 
 const playerData = [
-  { id: 1, firstName: "Alex", lastName: "Bregman", hobbies: alexHobbies, jerseyNumber: 2 },
-  { id: 4, firstName: "Yordan", lastName: "Alvarez", hobbies: yordanHobbies, jerseyNumber: 44 },
-  { id: 3, firstName: "Jose", lastName: "Altuve", hobbies: joseHobbies, jerseyNumber: 27 },
-  { id: 5, firstName: "Framber", lastName: "Valdez", hobbies: framerberHobbies, jerseyNumber: 59 },  
-  { id: 2, firstName: "Jeremy", lastName: "Pena", hobbies: jeremyHobbies, jerseyNumber: 3 },
+  { id: "1a", firstName: "Alex", lastName: "Bregman", hobbies: alexHobbies, jerseyNumber: 2 },
+  { id: "4a", firstName: "Yordan", lastName: "Alvarez", hobbies: yordanHobbies, jerseyNumber: 44 },
+  { id: "3a", firstName: "Jose", lastName: "Altuve", hobbies: joseHobbies, jerseyNumber: 27 },
+  { id: "5a", firstName: "Framber", lastName: "Valdez", hobbies: framerberHobbies, jerseyNumber: 59 },  
+  { id: "2a", firstName: "Jeremy", lastName: "Pena", hobbies: jeremyHobbies, jerseyNumber: 3 },
 ]
 
 function PlayerList(){
